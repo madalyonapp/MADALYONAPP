@@ -1,23 +1,18 @@
-import React, {Component} from 'react';
-import {StyleSheet, ImageBackground} from 'react-native';
-
-import bgSrc from '../../res/wallpaper.png';
-
-export default class Wallpaper extends Component {
-  render() {
-    return (
-      <ImageBackground style={styles.picture} source={bgSrc}>
-        {this.props.children}
-      </ImageBackground>
-    );
-  }
+import * as React from 'react';
+import { Text, View, Image,StyleSheet, FlatList} from 'react-native';
+import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import Icon from 'react-native-vector-icons/FontAwesome'
+import LoginPage from './Pages/Login/LoginPage'
+import InterfaceSecionPage from './Pages/InterfaceSectionPage'
+import TravelInterfacePage from './Pages/Travel/TravelInterfacePage'
+function App() {
+  return (
+    <LoginPage/>
+  );
 }
+export default App;
 
-const styles = StyleSheet.create({
-  picture: {
-    flex: 1,
-    width: null,
-    height: null,
-    resizeMode: 'cover',
-  },
-});
+

@@ -14,27 +14,17 @@ import ProfilView from './ProfilView';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { TabView, SceneMap } from 'react-native-tab-view';
 import Modal from 'react-native-modal';
+import { Title } from 'react-native-paper';
+import ImagePicker from './imagePicker';
+import Yardımdestek from './Yardımdestek.js';
 
 function AnaSayfa({ navigation }) {
   return (
     <View style={styles.view}>
-      <View style={styles.asheader}>
-        <View style={styles.asheader}>
-          <Icon name="user" size={40} color="orange" />
-          <Text style={styles.textstyle}>Arayüz tercihi</Text>
-          <Text style={styles.textstyle}>Kullanıcı Adı</Text>
-        </View>
-        <TouchableOpacity onPress={() => navigation.navigate('Ayarlar')}>
-          <Icon name="cog" size={40} color="orange" />
-        </TouchableOpacity>
-      </View>
-      <View style={styles.asbody}>
-        <Dashboard />
-      </View>
     </View>
   );
 }
-function Ayarlar() {
+function Ayarlar({ navigation }) {
   return (
     <View style={styles.view}>
       <View style={styles.asbody}>
@@ -83,12 +73,26 @@ function Ayarlar() {
           />
         </Card>
 
-        <Button
-          icon={<Icon name="sign-out" size={35} color="orange" style={{ marginRight: 10 }} />}
-          title="Çıkış Yap"
-          buttonStyle={{ width: 150, margin: 15, color : "#000" }}
-          type="outline"
-        />
+        <View style={{ display: 'flex', flexDirection: 'row' }}>
+          <View style={{ display: 'flex', flexDirection: 'row', flex: 1 }} />
+          <View style={{ display: 'flex', flexDirection: 'row-reverse', flex: 1 }}>
+            <Button
+              icon={<Icon name="sign-out" size={35} color="orange" style={{ marginRight: 10 }} />}
+              title="Çıkış Yap"
+              buttonStyle={{ width: 150, margin: 15, color: "#000" }}
+              type="outline"
+            />
+             <TouchableOpacity onPress={() => navigation.navigate('Yardımdestek.js')}>
+            <Button
+              icon={<Icon name="info-circle" size={35} color="orange" style={{ marginRight: 10 }} />}
+              title="Destek"
+              buttonStyle={{ width: 150, margin: 15, color: "#000" }}
+              type="outline"
+            />
+            </TouchableOpacity>
+            <Yardımdestek></Yardımdestek>
+          </View>
+        </View>
       </View>
     </View>
   );
@@ -97,13 +101,13 @@ function Ayarlar() {
 function Arama() {
   return (
     <View style={styles.view}>
-      <Search />
+      
     </View>
   );
 }
 
 const gelenSorular = () => {
-  const [ isVisible, setIsVisible ] = React.useState(false);
+  const [isVisible, setIsVisible] = React.useState(false);
 
   return (
     <View style={{}}>
@@ -182,8 +186,8 @@ const sorulanSorular = () => (
 const initialLayout = { width: Dimensions.get('window').width };
 
 function Sorular() {
-  const [ index, setIndex ] = React.useState(0);
-  const [ routes ] = React.useState([
+  const [index, setIndex] = React.useState(0);
+  const [routes] = React.useState([
     { key: 'first', title: 'Gelen Sorular' },
     { key: 'second', title: 'Sorulan Sorular' }
   ]);
@@ -220,26 +224,37 @@ function Sorular() {
 function Profil({ navigation }) {
   return (
     <View style={styles.view}>
-      <View style={styles.asheader}>
-        <View style={styles.asheader}>
-          <Icon name="user" size={40} color="orange" />
-          <Text style={styles.textstyle}>Arayüz tercihi</Text>
-          <Text style={styles.textstyle}>Kullanıcı Adı</Text>
-        </View>
-        <TouchableOpacity onPress={() => navigation.navigate('Ayarlar')}>
-          <Icon name="cog" size={40} color="orange" />
-        </TouchableOpacity>
-      </View>
-      <View style={styles.asbody}>
-        <ProfilView />
-      </View>
     </View>
   );
 }
-function eklebuton() {
+function eklebuton(navigation) {
   return (
     <View style={styles.view}>
-      <Text>Makale ekle</Text>
+      <Card title="Deneyim Ekle">
+        <Text>Deneyimini Oluştur</Text>
+        <TextInput
+          placeholder="Buraya Yaz.."
+          multiline={true}
+          style={{
+            borderWidth: 0.5,
+            paddingHorizontal: 20,
+            paddingVertical: 5,
+            height: 100,
+            marginTop: 20,
+            borderColor: '#e67300'
+          }}
+        />
+        <View style={{ display: 'flex', flexDirection: 'row' }}>
+          <View style={{ display: 'flex', flexDirection: 'row', flex: 1 }} />
+            <ImagePicker />
+        </View>
+      </Card>
+      <Button
+        icon={<Icon name="share" size={35} color="orange" style={{ marginRight: 10 }} />}
+        title="Yayınla"
+        buttonStyle={{ width: 150, margin: 15 }}
+        type="outline"
+      />
     </View>
   );
 }
@@ -255,6 +270,14 @@ function AnaSayfaStack() {
       <Stack.Screen name="Ayarlar" component={Ayarlar} options={navigationOptionHandler} />
     </Stack.Navigator>
   );
+}
+function YardımdestekStack() {
+  return(
+    <Stack.Navigator>
+      <Stack.Screen name="Ayarlar" component={Ayarlar} options={navigationOptionHandler}/>
+      <Stack.Screen name="Yardımdestek" component={Yardımdestek} options={navigationOptionHandler}/>
+    </Stack.Navigator>
+  )
 }
 
 function ProfilStack() {
