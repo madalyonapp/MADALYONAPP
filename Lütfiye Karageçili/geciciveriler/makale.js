@@ -1,0 +1,65 @@
+export default [
+    {
+        "makale_id":"1",
+        "kullanici_id":"1",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"2",
+        "kullanici_id":"2",
+        "makale_Ad":"Istanbul: Our Travel Guide ",
+        "makale":"This much we can tell you right away: Istanbul is a city you absolutely must see for yourself. The pulsating vibes of the Metropolis is hard to put into words – this city exudes life like no other. At the same time, Istanbul is so unique and unlike any other city. It is literally a collision of two worlds – the European continent meets the Asian continent and creates a fusion, that is Istanbul. What’s so fascinating is that Istanbul is the only Metropolis in the world that encompasses two continents. This Turkish city is divided into two parts. There are two sides, two continents, two cultures. It is this contradiction that makes Istanbul one of the most intriguing cities we have ever been to.",
+        "makale_foto":"https://www.sommertage.com/wp-content/uploads/2019/03/Istanbul-Tipps-1-1024x684.jpg",
+    },
+    {
+        "makale_id":"3",
+        "kullanici_id":"1",
+        "makale_Ad":"First Trip to Istanbul",
+        "makale":"Planning your first trip to Istanbul? How exciting! After two months living in the Turkish cultural capital, I have knowledge enough to give all the tips you need to organize your holiday to Istanbul, Turkey. This is one of my favorite destinations, we already have been there four times, and every year that I put my feet there, feels like it´s my first time in Istanbul. Istanbul is a dream destination, it’s located on the edge of Europe where east meets west. Connecting the two continents, the city hides layers of history, culture, colors, and scents. The architecture, the food, everything in Istanbul tells a story. The city is busy, fast, never stops, but when you need a break from all this fervid life there is always a nice garden, a small tea house or a mosque where you can seat, breathe and relax.",
+        "makale_foto":"https://www.sommertage.com/wp-content/uploads/2019/03/Istanbul-Tipps-Blog.jpg",
+    },
+    {
+        "makale_id":"4",
+        "kullanici_id":"3",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"5",
+        "kullanici_id":"2",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"6",
+        "kullanici_id":"2",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"7",
+        "kullanici_id":"2",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"8",
+        "kullanici_id":"2",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    },
+    {
+        "makale_id":"9",
+        "kullanici_id":"2",
+        "makale_Ad":"ISTANBUL AT A GLANCE",
+        "makale":"Istanbul is the economic, financial, and cultural center of Turkey. It’s also the country’s biggest city with a population of just over 15 million people, making it one of the largest cities in Europe and the world. For those reasons, it’s natural to assume that Istanbul is Turkey’s capital but it isn’t. That distinction goes to Ankara.Located on both sides of the Bosphorus, what makes Istanbul geographically interesting is that it’s one of a handful of cities that straddles two continents. The western half of the city is situated in Europe while the eastern half is located in Asia. The Asian side is largely residential so you’ll find most of the city’s major attractions clustered within two districts on the European side – Sultanahmet and Beyoğlu. First-time visitors to the city will be spending much of their time in those two districts.Istanbul is a city steeped in history and culture so there is much to see and do there. From its Byzantine churches adorned with mosaics and frescoes to its magnificent mosques decorated by sky-high minarets, Istanbul is a city that will mesmerize you at every turn.",
+        "makale_foto":"https://i2.wp.com/inovakademi.com/wp-content/uploads/2016/12/istanbul.jpg?fit=1030%2C687&ssl=1",
+    }
+]
